@@ -17,7 +17,7 @@ spring:
         locator:
           enabled: true
       routes:
-        -id: hu1-service
+        - id: hu1-service
         uri: lb://hu1-service
         predicates:
           - Path=/hu1/**
