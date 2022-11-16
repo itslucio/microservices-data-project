@@ -18,7 +18,6 @@ spring:
           enabled: true
       routes:
         - id: hu1-service
-        uri: lb://hu1-service
-        predicates:
-          - Path=/hu1/**
-        
+          uri: lb://hu1-service
+          predicates:
+            - Path=/hu1/**
