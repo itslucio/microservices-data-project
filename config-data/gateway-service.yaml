@@ -22,10 +22,10 @@ spring:
           predicates:
             - Path=/hu1/**
         - id: hu2-service
-            uri: lb://hu2-service
-            predicates:
-              - Path=/hu2/**
+          uri: lb://hu2-service
+          predicates:
+            - Path=/hu2/**
         - id: hu3-service
-            uri: lb://hu3-service
-            predicates:
-              - Path=/hu3/**
+          uri: lb://hu3-service
+          predicates:
+            - Path=/hu3/**
