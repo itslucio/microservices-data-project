@@ -29,3 +29,7 @@ spring:
           uri: lb://hu3-service
           predicates:
             - Path=/hu3/**
+        - id: hu4-service
+          uri: lb://hu4-service
+          predicates:
+            - Path=/hu4/**
